@@ -1,3 +1,37 @@
-button{
-    border-radius: 2%;
+nav li a {
+    color: black;
 }
+li{
+    list-style: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+}
+li a:hover { color: rgb(214, 175, 0)}
+.collapse{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.image{
+    width: 50%;
+    height: 50%;
+}
+.text-white {
+    border-radius: 5px;
+}
+nav{
+    position: sticky;
+    top: 0;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    margin-right: 20px;
+}
+i {
+    cursor: pointer;
+}
+
